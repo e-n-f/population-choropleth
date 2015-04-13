@@ -11,4 +11,4 @@ After that, the tiling part is almost trivial.
 
     $ curl -O http://www2.census.gov/geo/tiger/TIGER2010BLKPOPHU/tabblock2010_06_pophu.zip
     $ java shpcat -j tabblock2010_06_pophu.zip > tabblock2010_06_pophu.json
-    $ node area.js | ../tippecanoe/tippecanoe -f -o population.mbtiles -y POP10 -y area
+    $ node area.js | ../tippecanoe/tippecanoe -f -o population.mbtiles -y density
